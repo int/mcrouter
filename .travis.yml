@@ -1,0 +1,7 @@
+language: cpp
+
+compiler:
+  - clang
+  - gcc
+
+script: ./mcrouter/script/install_ubuntu_14.04.sh "$(pwd)"/mcrouter-install
