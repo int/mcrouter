@@ -1,4 +1,4 @@
-# Mcrouter
+# Mcrouter [![Build Status](https://travis-ci.org/int/mcrouter.svg?branch=master)](https://travis-ci.org/int/mcrouter)
 
 Mcrouter is a memcached protocol router for scaling memcached
 (http://memcached.org/) deployments. It's a core component of cache
