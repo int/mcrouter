@@ -2,6 +2,9 @@ language: cpp
 
 compiler:
   - gcc
-  - clang
 
 script: ./mcrouter/scripts/install_ubuntu_12.04.sh "$(pwd)"/mcrouter-install
+
+notifications:
+  email:
+    - alecsk@gmail.com
