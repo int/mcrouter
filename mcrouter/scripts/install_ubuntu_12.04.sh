@@ -7,6 +7,7 @@ set -ex
 sudo apt-get install -y python-software-properties
 sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 sudo add-apt-repository -y ppa:boost-latest/ppa
+sudo add-apt-repository -y ppa:dominik-stadler/subversion-1.8 # scons
 sudo apt-get update
 
 sudo apt-get install -y gcc-4.8 g++-4.8 libboost1.54-dev libboost-thread1.54-dev \
